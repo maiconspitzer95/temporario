@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tecnologia que Transforma o Cuidado · Santa Casa de Pelotas</title>
+  <link rel="icon" href="assets/img/chip-avatar.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/mockups.css">
+</head>
+<body data-view="opening">
+<div id="viewport">
+  <div id="stage">
+
+    <!-- Fundo institucional -->
+    <div class="backdrop" aria-hidden="true">
+      <div class="img"></div><div class="veil"></div><div class="glow"></div><div class="glow b"></div>
+    </div>
+
+    <!-- ===================== ABERTURA ===================== -->
+    <section class="view" id="v-opening" aria-label="Abertura">
+      <div class="opening-inner">
+        <img class="opening-logo rise" style="--d:0" src="assets/img/logo-santa-casa.png" alt="Santa Casa de Pelotas">
+        <div class="opening-kicker rise" style="--d:2">Tecnologia da Informação</div>
+        <h1 class="opening-title">
+          <span class="l1 rise" style="--d:3">TECNOLOGIA QUE</span>
+          <span class="l2 rise" style="--d:4">TRANSFORMA O CUIDADO</span>
+        </h1>
+        <p class="opening-sub rise" style="--d:6">Projetos de Tecnologia da Informação <b>|</b> 2026–2027</p>
+        <p class="opening-id rise" style="--d:7">Santa Casa de Misericórdia de Pelotas</p>
+        <div class="opening-cta rise" style="--d:9">
+          <button class="btn primary big" data-go="#/menu">Conhecer nossos projetos <span data-icon="arrowright"></span></button>
+        </div>
+      </div>
+      <div class="hint rise" style="--d:12"><kbd>F</kbd> tela cheia &nbsp;·&nbsp; <kbd>?</kbd> atalhos</div>
+    </section>
+
+    <!-- ===================== MENU ===================== -->
+    <section class="view" id="v-menu" aria-label="Menu de projetos">
+      <header class="topbar">
+        <div class="brand"><img src="assets/img/logo-santa-casa.png" alt="Santa Casa de Pelotas"><span class="sep"></span><span class="dept"><b>Tecnologia da Informação</b>Projetos 2026–2027</span></div>
+        <div class="actions">
+          <button class="btn" data-go="#/abertura"><span data-icon="home"></span>Abertura</button>
+          <button class="btn" data-go="#/encerramento"><span data-icon="heart"></span>Encerramento</button>
+          <button class="btn icon" data-fs title="Tela cheia (F)"><span data-icon="expand"></span></button>
+        </div>
+      </header>
+      <div class="menu-head">
+        <div class="rise" style="--d:0">
+          <div class="kicker">Nossos projetos</div>
+          <h1>Escolha um projeto para conhecer</h1>
+        </div>
+        <div id="chip-slot"></div>
+      </div>
+      <div class="menu-grid" id="menu-grid"></div>
+    </section>
+
+    <!-- ===================== SEÇÃO ===================== -->
+    <section class="view" id="v-section" aria-label="Categoria">
+      <header class="topbar">
+        <div class="brand"><img src="assets/img/logo-santa-casa.png" alt="Santa Casa de Pelotas"><span class="sep"></span><span class="dept"><b>Tecnologia da Informação</b>Projetos 2026–2027</span></div>
+        <div class="actions">
+          <button class="btn" data-go="#/menu"><span data-icon="grid"></span>Voltar ao menu</button>
+          <button class="btn icon" data-go="#/abertura" title="Abertura"><span data-icon="home"></span></button>
+          <button class="btn icon" data-fs title="Tela cheia (F)"><span data-icon="expand"></span></button>
+        </div>
+      </header>
+      <div class="sec-wrap" id="sec-wrap"></div>
+    </section>
+
+    <!-- ===================== PROJETO ===================== -->
+    <section class="view" id="v-project" aria-label="Projeto">
+      <header class="topbar">
+        <div class="brand"><img src="assets/img/logo-santa-casa.png" alt="Santa Casa de Pelotas"><span class="sep"></span><span class="crumb" id="pj-crumb"></span></div>
+        <div class="actions">
+          <button class="btn live" id="pj-live" hidden><span data-icon="external"></span>Abrir sistema</button>
+          <button class="btn primary" data-go="#/menu"><span data-icon="grid"></span>Voltar ao menu</button>
+          <button class="btn icon" data-go="#/abertura" title="Abertura"><span data-icon="home"></span></button>
+          <button class="btn icon" data-fs title="Tela cheia (F)"><span data-icon="expand"></span></button>
+        </div>
+      </header>
+      <div class="pj-body" id="pj-body"></div>
+      <nav class="dock" id="pj-dock" aria-label="Telas do projeto"></nav>
+    </section>
+
+    <!-- ===================== ENCERRAMENTO ===================== -->
+    <section class="view" id="v-closing" aria-label="Encerramento">
+      <div class="closing-inner">
+        <h1 class="closing-title">
+          <span class="rise" style="--d:0">A tecnologia evolui.</span>
+          <span class="l2 rise" style="--d:2">O nosso compromisso com o cuidado permanece.</span>
+        </h1>
+        <p class="closing-msg rise" style="--d:4">A transformação digital torna nossos processos mais organizados, a comunicação mais eficiente e as decisões mais seguras. Cada sistema apresentado nasceu de uma necessidade real da nossa rotina — e todos têm o mesmo propósito: apoiar quem cuida.</p>
+        <div class="closing-pillars rise" style="--d:6">
+          <span><span data-icon="flow"></span>Processos organizados</span>
+          <span><span data-icon="message"></span>Comunicação eficiente</span>
+          <span><span data-icon="trending"></span>Melhoria contínua</span>
+        </div>
+        <div class="closing-sign rise" style="--d:8">
+          <img src="assets/img/logo-santa-casa.png" alt="Santa Casa de Pelotas">
+          <span class="sep"></span>
+          <span class="dept"><b>Tecnologia da Informação</b>Santa Casa de Misericórdia de Pelotas</span>
+        </div>
+        <div class="closing-actions rise" style="--d:10">
+          <button class="btn primary big" data-go="#/menu"><span data-icon="grid"></span>Voltar ao menu de projetos</button>
+          <button class="btn big" data-go="#/abertura"><span data-icon="home"></span>Abertura</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== AJUDA ===================== -->
+    <div id="help" role="dialog" aria-label="Atalhos de teclado">
+      <div class="help-card">
+        <h3>Atalhos para o apresentador</h3>
+        <table>
+          <tr><td><kbd>→</kbd><kbd>PgDn</kbd><kbd>Espaço</kbd></td><td>Próxima tela do projeto</td></tr>
+          <tr><td><kbd>←</kbd><kbd>PgUp</kbd></td><td>Tela anterior do projeto</td></tr>
+          <tr><td><kbd>M</kbd><kbd>Esc</kbd></td><td>Voltar ao menu de projetos</td></tr>
+          <tr><td><kbd>1</kbd> … <kbd>0</kbd></td><td>Abrir projeto pelo número (no menu)</td></tr>
+          <tr><td><kbd>H</kbd></td><td>Voltar à abertura</td></tr>
+          <tr><td><kbd>E</kbd></td><td>Ir para o encerramento</td></tr>
+          <tr><td><kbd>F</kbd></td><td>Entrar ou sair da tela cheia</td></tr>
+        </table>
+        <button class="btn close" data-help>Fechar</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="js/icons.js"></script>
+<script src="js/mockups.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
